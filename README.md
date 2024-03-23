@@ -19,3 +19,8 @@ The next few lines (lines 14 to 17) use method chaining to perform a series of o
 Finally, on line 19, the http_request vector is printed using println!(). The {:?} format specifier is used to print the vector in a debug format.
 
 This code demonstrates a basic implementation of handling a client connection and extracting the lines of an HTTP request.
+
+
+## Reflection 2
+
+![alt text](commit2.png)
