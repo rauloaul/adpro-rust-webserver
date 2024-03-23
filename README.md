@@ -34,3 +34,7 @@ The provided code snippet processes client requests by first reading the request
 ## Reflection 4
 
 The intentional use of the thread::sleep() function in response to a request line of GET /sleep HTTP/1.1 causes a delay of 10 seconds, resulting in slow loading.
+
+## Reflection 5
+
+In Rust, managing tasks concurrently typically involves employing a thread pool, which consists of pre-allocated worker threads. These pools efficiently handle asynchronous tasks, including parallelizing CPU-bound workloads and executing non-blocking I/O operations, thus easing the load on the main thread by utilizing channels to facilitate communication between the ThreadPool and Worker, with the receiver wrapped with Mutex to prevent race conditions and Arc to avoid borrowing conflicts.
