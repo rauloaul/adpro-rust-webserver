@@ -30,3 +30,7 @@ This code demonstrates a basic implementation of handling a client connection an
 ![alt text](assets/images/commit3.png)
 
 The provided code snippet processes client requests by first reading the request line. If the request is a GET method targeting the root path "/", it responds by sending the contents of the "hello.html" file. Otherwise, if the request method is not GET or the path is not "/", it returns a "404 Not Found" response. The refactoring aim is to streamline and minimize redundancy in the code.
+
+## Reflection 4
+
+The intentional use of the thread::sleep() function in response to a request line of GET /sleep HTTP/1.1 causes a delay of 10 seconds, resulting in slow loading.
