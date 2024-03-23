@@ -23,4 +23,10 @@ This code demonstrates a basic implementation of handling a client connection an
 
 ## Reflection 2
 
-![alt text](commit2.png)
+![alt text](assets/images/commit2.png)
+
+## Reflection 3
+
+![alt text](assets/images/commit3.png)
+
+The provided code snippet processes client requests by first reading the request line. If the request is a GET method targeting the root path "/", it responds by sending the contents of the "hello.html" file. Otherwise, if the request method is not GET or the path is not "/", it returns a "404 Not Found" response. The refactoring aim is to streamline and minimize redundancy in the code.
